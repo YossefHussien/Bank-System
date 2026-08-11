@@ -167,17 +167,7 @@ string Trim(string S1)
 	return TrimLeft(TrimRight(S1));
 }
 
-string JoinString(vector <string>& vString, string Delim)
-{
-	string sWord = "";
 
-	for (string& s : vString)
-	{
-		sWord = sWord + s + Delim;
-	}
-
-	return sWord.substr(0, sWord.length() - Delim.length());
-}
 
 string JoinString(vector <string>& vString, string Delim)
 {
