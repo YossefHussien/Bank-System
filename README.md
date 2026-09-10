@@ -23,4 +23,4 @@ A C++ console-based application designed to manage bank clients, user accounts, 
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone [https://github.com/YossefHussien/BankSystem.git](https://github.com/YossefHussien/BankSystem.git)
+   git clone [https://github.com/YossefHussien/Bank-System.git](https://github.com/YossefHussien/Bank-System.git)
