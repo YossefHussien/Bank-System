@@ -9,7 +9,7 @@ namespace Input
     {
         int Number;
         do {
-            cout << Message << endl;
+            cout << Message;
             cin >> Number;
 
             while (cin.fail())
@@ -92,8 +92,8 @@ namespace Input
     string ReadString(string Message)
     {
         string Text;
-        cout << Message << endl;
-        getline(cin, Text);
+        cout << Message;
+        getline(cin >> ws, Text);
         return Text;
     }
 

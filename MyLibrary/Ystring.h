@@ -2,7 +2,11 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <cctype>
 using namespace std;
+
+namespace Ystring
+{
 
 string UpperAllString(string S1)
 {
@@ -47,6 +51,7 @@ short CountCapitalLetters(string S1)
 	}
 	return Counter;
 }
+
 short CountSmallLetters(string S1)
 {
 	short Counter = 0;
@@ -167,8 +172,6 @@ string Trim(string S1)
 	return TrimLeft(TrimRight(S1));
 }
 
-
-
 string JoinString(vector <string>& vString, string Delim)
 {
 	string sWord = "";
@@ -269,4 +272,5 @@ string RemovePunctFromString(string S1)
 	}
 
 	return Result;
+}
 }
